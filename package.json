@@ -1,7 +1,7 @@
 {
   "name": "redux-plugin",
-  "version": "0.0.4",
-  "description": "Redux architecture for 'plugin' react components",
+  "version": "0.0.1",
+  "description": "Redux architecture for 'plugin' react components (updated)",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib",
@@ -15,9 +15,9 @@
   ],
   "dependencies": {
     "is-empty-object": "^1.1.1",
-    "react": "^15.6.1",
-    "react-redux": "^5.0.5",
-    "redux": "^3.7.2"
+    "react": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   },
   "jest": {
     "testRegex": "(/__tests__/.*|\\.(test))\\.(ts|tsx|js)$",
@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samuelchvez/redux-plugin.git"
+    "url": "git+https://github.com/gusmendez99/redux-plugin.git"
   },
   "keywords": [
     "redux",
@@ -55,10 +55,10 @@
     "plugin",
     "element"
   ],
-  "author": "Samuel Chávez",
+  "author": "Gus Méndez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samuelchvez/redux-plugin/issues"
+    "url": "https://github.com/gusmendez99/redux-plugin/issues"
   },
-  "homepage": "https://github.com/samuelchvez/redux-plugin#readme"
+  "homepage": "https://github.com/gusmendez99/redux-plugin#readme"
 }
